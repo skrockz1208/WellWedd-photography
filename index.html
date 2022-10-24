@@ -5,13 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <!--<style>
-      body
-      {
-        background-repeat: repeat-x;
-      }
-      w-7xl
-    </style>-->
+    <style>
+    div.gallery
+     {
+      margin: 5px;
+      float: left;
+      height: auto;
+      width:400px
+    }
+  </style>
 </head>
 <body>
     <div class="flex justify-center bg-black" style="background-repeat:repeat-x ;">
@@ -28,8 +30,10 @@
                         <a href="#services">Services</a></li>
                     <li class="hover:underline underline-offset-4 decoration-2 decoration-white py-2 rounded-lg px-5"><a
                             href="#">About</a></li>
+                            <!--
                     <li class="hover:underline underline-offset-4 decoration-2 decoration-white py-2 rounded-lg px-5">
                         <a href="#">Pricing</a></li>
+                        -->
                 </ul>
                 <div class="text-white text-center text-base pr-5  inline-flex"> <a href="https://twitter.com/sugamsonewane"
                         class="w-8 h-8 inline-block rounded-full pt-[6px] hover:text-blue-500"><i
@@ -52,21 +56,33 @@
             <div class="flex flex-col lg:flex-row max-w-7xl justify-center items-center p-2 space-y-3 w-full">
                 <div class="flex flex-col  text-white md:items-start items-center justify-between  space-y-3 px-8">
                     <div class="text-5xl md:text-7xl font-bold " >
-                        STUDIO<br> WELLWEDD </div>
+                      STUDIO<br> WELLWEDD </div>
                     <div class="text-lg uppercase md:text-3xl   ">
                         photography Services</div>
                     <div class="text-xl md:text-3xl   ">
-                        @StudioWellwedd.in</div>
+                        @StudioWellWedd.in</div>
                 </div>
                 <div class="flex space-x-2 md:space-x-6 md:m-4">
 
-                    <div class="md:w-40 w-10 h-60 md:h-96  overflow-hidden rounded-xl">
-                        <img src="simage1.jpg" class="h-full w-full" alt="image1">
+                    <!--<div class="md:w-40 w-10 h-60 md:h-96  overflow-hidden rounded-xl">
+                       <a target="_blank" href="simage1.jpg"><img src="simage1.jpg" class="h-full w-full" alt="image1"></a>
+                    </div>-->
+                    <div class="gallery">
+                      <a target="_blank" href="simage1.jpg">
+                        <img src="sugam2.jpeg" alt="Cinque Terre" class="h-full w-full">
+                      </a>
                     </div>
+                    <div class="gallery">
+                      <a target="_blank" href="_SUG5548.jpg">
+                        <img src="_SUG5548.jpg" alt="Cinque Terre" class="h-full w-full">
+                      </a>
+                    </div>
+                    <!--
                     <div class="md:w-40 w-30 h-60 md:h-96  overflow-hidden rounded-xl">
                         <img src="simage2.jpg" class="h-full w-full" alt="image2">
-
+-->
                     </div>
+                    <!--
                     <div class="md:w-40  w-30 h-60 md:h-96  overflow-hidden rounded-xl">
                         <img src="girl1.jpg" class="h-full w-full" alt="image3">
 
@@ -98,8 +114,8 @@
             </a>
             <div class="lg:w-1/4 md:w-1/2 w-full px-4"></div>
             <h2 class="title-font font-medium text-white tracking-widest text-sm mb-3" style="text-align:center">     ABOUT US</h2>
-            <p class="mt-2 text-sm text-gray-500">  Capturing Happiness</p>
-            <pre id="contact">  Shop No-1, Near B.D.C.C Bank, <br>  Bhandara Road, Main Road,<br>  Lakhani-000000 <br>  Email us-<a href="mailto:saurabh.kosa@gmail.com">Saurabh.kosa@gmail.com</a><br>  Mob-7776810029</pre>
+            <!--<p class="mt-2 text-sm text-gray-500" style="text-align:center;">  Capturing Happiness</p>-->
+            <pre id="contact" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;text-align:center">  Shop No-1, Near B.D.C.C Bank, <br>  Bhandara Road, Main Road,<br>  Lakhani- 385535 <br>  Email us-<a href="mailto:saurabh.kosa@gmail.com">Saurabh.kosa@gmail.com</a><br>  Mob-7776810029</pre>
           </div>
           <div class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
             <div class="lg:w-1/4 md:w-1/2 w-full px-4">
@@ -178,16 +194,16 @@
         <p style="text-align:center">©All Rights Reserved, Built with ❤️ by SAURABH</p>
         <div class="bg-gray-800 bg-opacity-75">
           <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
-            <p class="text-gray-400 text-sm text-center sm:text-left">© 2022 STUDIO WELLWED —
+            <p class="text-gray-400 text-sm text-center sm:text-left">© 2022 STUDIO WELLWEDD —
               <a href="https://twitter.com/sugamsonewane" rel="noopener noreferrer" class="text-gray-500 ml-1" target="_blank">@SugamSonewane</a>
             </p>
             <span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
-              <a class="text-gray-400">
+              <a class="text-gray-400" href="#">
                 <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
                   <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
                 </svg>
               </a>
-              <a class="ml-3 text-gray-400">
+              <a class="ml-3 text-gray-400" href="https://twitter.com/sugamsonewane" terget="_parent">
                 <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
                   <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
                 </svg>
